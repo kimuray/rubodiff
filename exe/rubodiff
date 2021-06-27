@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 
-puts "Hello world"
+require "rubodiff_support"
+
+p RubodiffSupport.show_releases
